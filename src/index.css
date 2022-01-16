@@ -4,10 +4,52 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #0083ee;
   color: #fff;
   overflow-x: hidden;
 }
+
+figure {
+  margin: 0;
+}
+
+iframe {
+  margin: 0;
+}
+
+video {
+  padding-bottom: 200px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-top: 45px;
+  /* padding-bottom: 45px; */
+}
+
+.twitter-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.discord-logo {
+  width: 100px;
+  height: 35px;
+  padding-right: 20px;
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
 #root {
   min-height: 100vh;
   display: flex;
